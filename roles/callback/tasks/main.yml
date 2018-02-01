@@ -1,0 +1,6 @@
+---
+# tasks file for callback
+- name: Install wget rpm package
+  yum:
+    pkg: wget
+    state: present
