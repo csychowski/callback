@@ -6,8 +6,8 @@ hostb
 hostc
 hostd
 
-[vars:UAT]
+[UAT:vars]
 mytier = uat
 
-[vars:PROD]
+[PROD:vars]
 mytier = prod
