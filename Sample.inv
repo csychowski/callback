@@ -1,0 +1,13 @@
+[UAT]
+hosta
+hostb
+
+[PROD]
+hostc
+hostd
+
+[vars:UAT]
+mytier = uat
+
+[vars:PROD]
+mytier = prod
